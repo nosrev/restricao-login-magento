@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+  <global>
+  </global>
+  
+  <frontend>
+    <events>
+        <controller_action_predispatch>
+            <observers>
+                <sng_restrict_controller_action_predispatch>
+                    <class>Sng_Restrict_Model_Observer</class>
+                    <method>checkForLogin</method>
+                </sng_restrict_controller_action_predispatch>
+            </observers>
+        </controller_action_predispatch>
+    </events>
+</frontend>
+  
+</config>

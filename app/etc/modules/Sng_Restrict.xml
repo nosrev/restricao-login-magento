@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Sng_Restrict>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Sng_Restrict>
+    </modules>
+</config>
